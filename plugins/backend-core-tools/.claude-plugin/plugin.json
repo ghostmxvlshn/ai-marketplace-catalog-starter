@@ -1,0 +1,8 @@
+{
+  "name": "backend-core-tools",
+  "description": "Mock backend plugin with architecture and API contract skills",
+  "version": "0.1.0",
+  "author": {
+    "name": "Core Backend Team"
+  }
+}

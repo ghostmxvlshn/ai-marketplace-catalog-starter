@@ -11,19 +11,13 @@
   "plugins": [
     {
       "name": "devops-tools",
-      "source": {
-        "source": "github",
-        "repo": "company/ai-plugin-devops"
-      },
+      "source": "./plugins/devops-tools",
       "description": "Terraform, CI/CD and incident workflows",
       "tags": ["devops", "terraform", "cicd"]
     },
     {
       "name": "backend-core-tools",
-      "source": {
-        "source": "github",
-        "repo": "company/ai-plugin-backend-core"
-      },
+      "source": "./plugins/backend-core-tools",
       "description": "Backend architecture and API reliability workflows",
       "tags": ["backend", "dotnet", "api"]
     },

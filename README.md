@@ -7,7 +7,11 @@ Internal GitHub starter for a Claude Code plugin marketplace with team-separated
 - Decentralized ownership (one plugin repo per team)
 - Safe governance (CODEOWNERS + branch protections + versioning)
 
-## Suggested team plugin repos
+## Included mock plugins (in this repo)
+- `plugins/devops-tools`
+- `plugins/backend-core-tools`
+
+## Suggested team plugin repos (next step)
 - `company/ai-plugin-devops`
 - `company/ai-plugin-backend-core`
 - `company/ai-plugin-frontend`
