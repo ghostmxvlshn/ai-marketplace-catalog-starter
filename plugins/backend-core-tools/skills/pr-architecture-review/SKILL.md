@@ -1,14 +1,14 @@
 ---
-description: Perform architecture-focused PR review for backend services
+description: Review backend PRs for architecture quality and operational readiness
 disable-model-invocation: false
 ---
 
-Review backend PR changes for:
+Analyze backend code changes for:
 
 - Layering and dependency boundaries
-- Domain model correctness
-- Error handling and resiliency
-- Logging/metrics/tracing impact
-- Test coverage gaps
+- Domain model consistency
+- Error handling and resiliency patterns
+- Logging, metrics, and tracing coverage
+- Test adequacy (unit/integration)
 
 Return findings grouped by **Must Fix** and **Should Improve**.

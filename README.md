@@ -1,26 +1,24 @@
-# Company Agent Tools Marketplace (Starter)
+# mxstart Agent Marketplace
 
-Internal GitHub starter for a Claude Code plugin marketplace with team-separated ownership.
+Production-ready starter for the **mxstart** internal Claude Code plugin marketplace.
 
-## Goals
-- Central discovery (`marketplace.json`)
-- Decentralized ownership (one plugin repo per team)
-- Safe governance (CODEOWNERS + branch protections + versioning)
+## Purpose
+Centralize team-specific agents and skills (DevOps, Backend, Frontend, Shared Standards) with clear ownership, governance, and versioning.
 
-## Included mock plugins (in this repo)
-- `plugins/devops-tools`
-- `plugins/backend-core-tools`
+## Repository layout
+- `.claude-plugin/marketplace.json` — marketplace catalog
+- `plugins/devops-tools` — DevOps team plugin
+- `plugins/backend-core-tools` — Backend team plugin
+- `docs/REPO-PLAN.md` — ownership and governance model
 
-## Suggested team plugin repos (next step)
-- `company/ai-plugin-devops`
-- `company/ai-plugin-backend-core`
-- `company/ai-plugin-frontend`
-- `company/ai-plugin-shared-standards`
-
-## Install (example)
+## Installation (example)
 ```bash
-/plugin marketplace add https://github.com/<org>/ai-marketplace-catalog
-/plugin install devops-tools@company-agent-tools
+/plugin marketplace add https://github.com/mxstart/ai-marketplace
+/plugin install devops-tools@mxstart-agent-tools
 ```
 
-See `docs/REPO-PLAN.md` for detailed ownership model.
+## Governance
+- PR reviews required
+- CODEOWNERS required
+- Semantic versioning for plugin manifests
+- Human approval required for any production-impacting actions

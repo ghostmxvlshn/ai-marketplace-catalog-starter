@@ -1,8 +1,9 @@
 {
   "name": "devops-tools",
-  "description": "Mock DevOps plugin with Terraform and incident workflows",
-  "version": "0.1.0",
+  "description": "mxstart DevOps workflows for Terraform, CI/CD, and incident response",
+  "version": "1.0.0",
   "author": {
-    "name": "Platform/DevOps Team"
+    "name": "mxstart DevOps Team",
+    "email": "devops@mxstart.com"
   }
 }

@@ -1,14 +1,14 @@
 ---
-description: Triage an incident quickly with structured severity and action plan
+description: Perform rapid incident triage and propose immediate containment steps
 disable-model-invocation: false
 ---
 
-Given an alert, logs, or symptom summary:
+Given alerts, logs, and symptoms:
 
-- Classify severity (SEV1/SEV2/SEV3)
-- Suggest immediate containment actions
+- Determine severity (SEV1/SEV2/SEV3)
+- Propose immediate containment actions
 - Identify likely root-cause domains
-- Propose 30-minute investigation steps
-- Draft status update text for stakeholders
+- Provide a 30-minute investigation plan
+- Draft a concise stakeholder status update
 
-Prefer safe mitigations and explicit assumptions.
+Prioritize safety, clear assumptions, and reversible actions.

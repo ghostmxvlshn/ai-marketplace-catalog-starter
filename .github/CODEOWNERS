@@ -1,0 +1,6 @@
+* @mxstart/platform-ai
+
+.claude-plugin/* @mxstart/platform-ai
+
+plugins/devops-tools/** @mxstart/devops
+plugins/backend-core-tools/** @mxstart/backend-core

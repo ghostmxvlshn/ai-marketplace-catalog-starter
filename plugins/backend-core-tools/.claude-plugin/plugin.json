@@ -1,8 +1,9 @@
 {
   "name": "backend-core-tools",
-  "description": "Mock backend plugin with architecture and API contract skills",
-  "version": "0.1.0",
+  "description": "mxstart backend workflows for architecture and API reliability",
+  "version": "1.0.0",
   "author": {
-    "name": "Core Backend Team"
+    "name": "mxstart Backend Team",
+    "email": "backend@mxstart.com"
   }
 }
