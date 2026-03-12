@@ -1,0 +1,6 @@
+# Copy to .github/CODEOWNERS in each repo
+
+* @company/platform-ai
+.claude-plugin/* @company/platform-ai
+skills/** @company/<team-name>
+agents/** @company/<team-name>

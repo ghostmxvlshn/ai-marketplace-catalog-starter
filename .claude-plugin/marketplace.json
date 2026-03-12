@@ -1,0 +1,49 @@
+{
+  "name": "company-agent-tools",
+  "owner": {
+    "name": "Platform AI Enablement",
+    "email": "platform-ai@company.com"
+  },
+  "metadata": {
+    "description": "Internal marketplace for company engineering agents and skills",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "devops-tools",
+      "source": {
+        "source": "github",
+        "repo": "company/ai-plugin-devops"
+      },
+      "description": "Terraform, CI/CD and incident workflows",
+      "tags": ["devops", "terraform", "cicd"]
+    },
+    {
+      "name": "backend-core-tools",
+      "source": {
+        "source": "github",
+        "repo": "company/ai-plugin-backend-core"
+      },
+      "description": "Backend architecture and API reliability workflows",
+      "tags": ["backend", "dotnet", "api"]
+    },
+    {
+      "name": "frontend-tools",
+      "source": {
+        "source": "github",
+        "repo": "company/ai-plugin-frontend"
+      },
+      "description": "Frontend quality, accessibility and performance workflows",
+      "tags": ["frontend", "a11y", "performance"]
+    },
+    {
+      "name": "shared-standards",
+      "source": {
+        "source": "github",
+        "repo": "company/ai-plugin-shared-standards"
+      },
+      "description": "Cross-team standards, templates and release checklists",
+      "tags": ["standards", "governance", "shared"]
+    }
+  ]
+}
